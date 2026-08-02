@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 25% 97%;      /* paper */
+    --foreground: 220 12% 10%;     /* ink */
+    --muted: 220 8% 42%;           /* slate */
+    --muted-foreground: 220 8% 55%;
+    --border: 40 12% 87%;          /* hairline */
+    --card: 0 0% 100%;
+    --card-foreground: 220 12% 10%;
+    --ring: 344 60% 55%;
+
+    /* signature accent: professional reddish-pink */
+    --primary: 344 60% 55%;          /* #D1476B */
+    --primary-foreground: 0 0% 100%;
+    --primary-soft: 344 70% 96%;     /* tag/chip tint */
+
+    /* secondary accent used sparingly for contrast tags */
+    --accent: 145 41% 22%;            /* forest green #214E34 */
+    --accent-foreground: 0 0% 100%;
+    --accent-soft: 145 35% 94%;
+
+    /* warm, earthy secondary palette — used for variety across sections & widgets */
+    --blush: 10 54% 86%;              /* #EFD0CA */
+    --blush-soft: 10 60% 95%;
+    --taupe: 46 14% 72%;              /* #C1BCAC */
+    --taupe-soft: 46 30% 95%;
+    --sage: 77 7% 58%;                /* #979B8D */
+    --sage-soft: 77 20% 95%;
+    --olive: 110 14% 40%;             /* #5C7457 */
+    --olive-soft: 110 25% 95%;
+    --forest: 145 41% 22%;            /* #214E34, same as --accent */
+    --forest-soft: 145 35% 94%;
+
+    --radius: 2px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-foreground font-body antialiased;
+    background-color: hsl(var(--background));
+      background-image:
+      radial-gradient(circle at 12% 18%, hsl(var(--primary) / 0.07), transparent 42%),
+      radial-gradient(circle at 88% 12%, hsl(var(--forest) / 0.06), transparent 46%),
+      radial-gradient(circle at 78% 82%, hsl(var(--blush) / 0.14), transparent 46%),
+      radial-gradient(circle at 8% 86%, hsl(var(--olive) / 0.06), transparent 42%);
+    background-attachment: fixed;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .bg-grid {
+    background-image: linear-gradient(hsl(var(--border)) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border)) 1px, transparent 1px);
+    background-size: 64px 64px;
+    -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black, transparent);
+    mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
