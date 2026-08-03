@@ -38,8 +38,8 @@ export default function Nav() {
 
         <ul
           className={cn(
-            "gap-7 font-mono text-[12.5px] tracking-wide md:static md:flex md:translate-y-0 md:border-none md:bg-transparent md:p-0",
-            "fixed inset-x-0 top-[60px] flex-col border-b border-border bg-background p-5 transition-transform duration-300 md:transition-none",
+            "font-mono text-[12.5px] tracking-wide md:static md:flex md:flex-row md:gap-7 md:translate-y-0 md:border-none md:bg-transparent md:p-0",
+            "fixed inset-x-0 top-[60px] flex flex-col border-b border-border bg-background p-5 transition-transform duration-300 md:transition-none",
             open ? "translate-y-0" : "-translate-y-[130%] md:translate-y-0"
           )}
         >
