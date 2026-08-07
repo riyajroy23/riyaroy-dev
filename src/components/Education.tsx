@@ -8,7 +8,7 @@ export default function Education() {
       <div className="container max-w-[1080px]">
         <div className="mb-12 max-w-[640px]">
           <Eyebrow dot="bg-olive">education</Eyebrow>
-          <h2 className="text-[clamp(28px,4vw,40px)]">Where I studied.</h2>
+          <h2 className="text-[clamp(28px,4vw,40px)]">My Education</h2>
         </div>
 
         <div className="rounded-sm border border-border bg-card p-8">

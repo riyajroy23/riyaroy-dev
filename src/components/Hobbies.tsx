@@ -7,7 +7,7 @@ const hobbies = [
   {
     icon: ChefHat,
     name: "Baking",
-    blurb: "Weekend sourdough experiments and an ever-growing cookie repertoire.",
+    blurb: "An ever-growing cookie repertoire and endless birthday cake attempts.",
     iconBg: "bg-blush-soft",
     iconColor: "text-forest",
     blobColor: "fill-blush/40",
@@ -15,7 +15,7 @@ const hobbies = [
   {
     icon: Scissors,
     name: "Crocheting",
-    blurb: "Working through amigurumi patterns one skein at a time.",
+    blurb: "Working through amigurumi patterns and handmade clothes one skein at a time.",
     iconBg: "bg-taupe-soft",
     iconColor: "text-olive",
     blobColor: "fill-taupe/40",
@@ -23,7 +23,7 @@ const hobbies = [
   {
     icon: Music2,
     name: "Bollywood Dance",
-    blurb: "Trained in classical and Bollywood styles — still my go-to playlist.",
+    blurb: "Trained for 12 years and competing on Northeastern's Bollywood Fusion team.",
     iconBg: "bg-sage-soft",
     iconColor: "text-primary",
     blobColor: "fill-primary/10",
@@ -36,7 +36,7 @@ export default function Hobbies() {
       <div className="container max-w-[1080px]">
         <div className="mb-12 max-w-[640px]">
           <Eyebrow dot="bg-blush">beyond the code</Eyebrow>
-          <h2 className="text-[clamp(28px,4vw,40px)]">A few things I do off the clock.</h2>
+          <h2 className="text-[clamp(28px,4vw,40px)]">What I do in My Free Time</h2>
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">

@@ -14,7 +14,7 @@ export default function Skills() {
       <div className="container max-w-[1080px]">
         <div className="mb-12 max-w-[640px]">
           <Eyebrow dot="bg-taupe">skills</Eyebrow>
-          <h2 className="text-[clamp(28px,4vw,40px)]">Tools I reach for.</h2>
+          <h2 className="text-[clamp(28px,4vw,40px)]">Tools I Reach For</h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">

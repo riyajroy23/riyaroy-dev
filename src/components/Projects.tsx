@@ -10,7 +10,7 @@ export default function Projects() {
       <div className="container max-w-[1080px]">
         <div className="mb-12 max-w-[640px]">
           <Eyebrow dot="bg-forest">projects</Eyebrow>
-          <h2 className="text-[clamp(28px,4vw,40px)]">Things I&apos;ve built on the side.</h2>
+          <h2 className="text-[clamp(28px,4vw,40px)]">Projects I&apos;ve Built On The Side</h2>
         </div>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">

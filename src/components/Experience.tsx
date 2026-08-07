@@ -43,7 +43,7 @@ export default function Experience() {
         <div className="mb-12 flex flex-wrap items-end justify-between gap-4">
           <div className="max-w-[640px]">
             <Eyebrow dot="bg-olive">experience</Eyebrow>
-            <h2 className="text-[clamp(28px,4vw,40px)]">Where I&apos;ve worked.</h2>
+            <h2 className="text-[clamp(28px,4vw,40px)]">Where I&apos;ve Worked</h2>
           </div>
           <span className="font-mono text-[12.5px] text-muted-foreground">
             {String(index + 1).padStart(2, "0")} / {String(count).padStart(2, "0")}

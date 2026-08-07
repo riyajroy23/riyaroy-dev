@@ -7,7 +7,7 @@ export default function Publications() {
       <div className="container max-w-[1080px]">
         <div className="mb-12 max-w-[640px]">
           <Eyebrow dot="bg-sage">publications &amp; patents</Eyebrow>
-          <h2 className="text-[clamp(28px,4vw,40px)]">Written and filed work.</h2>
+          <h2 className="text-[clamp(28px,4vw,40px)]"> Written and Published Work</h2>
         </div>
 
         <div>

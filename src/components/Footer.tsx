@@ -9,7 +9,7 @@ export default function Footer() {
     <footer id="contact" className="border-t border-border py-16">
       <div className="container max-w-[1080px]">
         <Eyebrow>contact</Eyebrow>
-        <h2 className="mb-3.5 text-[clamp(28px,4vw,40px)]">Let&apos;s connect!</h2>
+        <h2 className="mb-3.5 text-[clamp(28px,4vw,40px)]">Let&apos;s Connect!</h2>
         <p className="mb-8 max-w-[520px] text-base text-muted">
           I&apos;m graduating in December 2026 and looking for full-time software engineering
           roles. If you have any questions or would like to talk more about my work, the fastest way to reach me is email.
@@ -33,7 +33,7 @@ export default function Footer() {
           <span>
             {contact.name.toLowerCase()} · {contact.location.toLowerCase()}
           </span>
-          <span>&copy; {new Date().getFullYear()}</span>
+          <span>{new Date().getFullYear()}</span>
         </div>
       </div>
     </footer>
