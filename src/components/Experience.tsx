@@ -51,19 +51,19 @@ export default function Experience() {
         </div>
 
         <div
-          className="relative"
+          className="relative px-8 sm:px-10"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
           onFocus={() => setPaused(true)}
           onBlur={() => setPaused(false)}
         >
-          <div className="overflow-hidden rounded-2xl border border-border bg-card">
+          <div className="overflow-hidden rounded-sm border border-border bg-card">
             <div
               className="flex transition-transform duration-500 ease-out motion-reduce:transition-none"
               style={{ transform: `translateX(-${index * 100}%)` }}
             >
               {experience.map((job, i) => (
-                <div key={job.company} className="w-full flex-none p-10 sm:p-10">
+                <div key={job.company} className="w-full flex-none p-8 sm:p-10">
                   <div className="mb-6 flex flex-wrap items-start justify-between gap-4">
                     <div className="flex items-center gap-4">
                       <CompanyLogo slug={job.slug} name={job.company} accent={LOGO_ACCENTS[i % LOGO_ACCENTS.length]} />
@@ -92,7 +92,7 @@ export default function Experience() {
             type="button"
             aria-label="Previous experience"
             onClick={prev}
-            className="absolute left-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background text-foreground shadow-sm transition hover:bg-foreground hover:text-background"
+            className="absolute left-0 top-1/2 flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background text-foreground shadow-sm transition hover:bg-foreground hover:text-background"
           >
             <ChevronLeft size={16} />
           </button>
@@ -100,7 +100,7 @@ export default function Experience() {
             type="button"
             aria-label="Next experience"
             onClick={next}
-            className="absolute right-2 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full border border-border bg-background text-foreground shadow-sm transition hover:bg-foreground hover:text-background"
+            className="absolute right-0 top-1/2 flex h-9 w-9 -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-border bg-background text-foreground shadow-sm transition hover:bg-foreground hover:text-background"
           >
             <ChevronRight size={16} />
           </button>
