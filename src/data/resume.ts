@@ -122,8 +122,8 @@ export const publications: Publication[] = [
 export const skills = {
   languages: ["Java", "Python", "C++", "JavaScript", "TypeScript", "HTML/CSS", "SQL", "R", "Racket", "MATLAB"],
   frameworks: ["React", "Flask", "Express.js", "Jest", "Cypress", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Keras"],
-  tools: ["Git", "Node.js", "PostgreSQL", "Linux", "AWS", "Databricks", "Kubernetes", "Postman", "Docker", "MongoDB"],
-  certifications: ["InspiritAI — AI in Healthcare Intensive, 2020", "InspiritAI — Deep Learning & LLMs Intensive, 2024"],
+  tools: ["Git", "Node.js", "PostgreSQL", "Linux", "AWS", "Azure", "Vite", "Jira", "Databricks", "Power BI", "Kubernetes", "Postman", "Docker", "MongoDB"],
+  certifications: ["Microsoft Azure Fundamentals (AZ-900), 2026", "InspiritAI — AI in Healthcare Intensive, 2020", "InspiritAI — Deep Learning & LLMs Intensive, 2024"],
 };
 
 export const education = {
