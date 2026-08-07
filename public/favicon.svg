@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#15171C"/>
+
+  <!-- corner brackets, echoing the detection-frame motif used across the site -->
+  <g stroke="#E0567C" stroke-width="34" stroke-linecap="round" fill="none">
+    <path d="M 100 210 L 100 100 L 210 100"/>
+    <path d="M 302 100 L 412 100 L 412 210"/>
+    <path d="M 100 302 L 100 412 L 210 412"/>
+    <path d="M 412 302 L 412 412 L 302 412"/>
+  </g>
+
+  <!-- personal monogram, standing in for the "detected point" -->
+  <text x="256" y="318" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-weight="700" font-size="188" fill="#E0567C">R</text>
+</svg>
